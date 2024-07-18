@@ -21,8 +21,8 @@ MonoBehaviour:
       m_GuidLow: 4902748165416883123
       m_GuidHigh: 896801994480570552
     m_SerializedTextureGuid:
-      m_GuidLow: 1856887075395574604
-      m_GuidHigh: 15551143904411117003
+      m_GuidLow: 10548762618571201145
+      m_GuidHigh: 12487749212041630825
     m_Size: {x: 0.2, y: 0.29792532}
     m_SpecifySize: 1
     m_Name: Card0
@@ -31,8 +31,8 @@ MonoBehaviour:
       m_GuidLow: 5205209367252528051
       m_GuidHigh: 706208583726585523
     m_SerializedTextureGuid:
-      m_GuidLow: 16777232903027874958
-      m_GuidHigh: 3834999356948879672
+      m_GuidLow: 16592438435037109402
+      m_GuidHigh: 3506941147250134218
     m_Size: {x: 0.2, y: 0.29792532}
     m_SpecifySize: 1
     m_Name: Card1
@@ -41,8 +41,8 @@ MonoBehaviour:
       m_GuidLow: 4635934243734403111
       m_GuidHigh: 14748595539912486842
     m_SerializedTextureGuid:
-      m_GuidLow: 6711721094543500732
-      m_GuidHigh: 11163261030764494554
+      m_GuidLow: 4802096797921842411
+      m_GuidHigh: 2912488924670212267
     m_Size: {x: 0.2, y: 0.29792532}
     m_SpecifySize: 1
     m_Name: Card2
@@ -51,8 +51,8 @@ MonoBehaviour:
       m_GuidLow: 5338994277079693862
       m_GuidHigh: 10927282077165800587
     m_SerializedTextureGuid:
-      m_GuidLow: 10066823434101890629
-      m_GuidHigh: 1506747193935355579
+      m_GuidLow: 12534818081710304769
+      m_GuidHigh: 7924374678142584331
     m_Size: {x: 0.2, y: 0.29792532}
     m_SpecifySize: 1
     m_Name: Card3
