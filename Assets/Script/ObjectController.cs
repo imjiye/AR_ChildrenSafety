@@ -9,13 +9,13 @@ public class ObjectController : MonoBehaviour
     private Rigidbody CarRb;
     public int MoveForce = 0;
     //public AudioClip CarAudio;
-    public AudioSource CarAudioSource;
+    //public AudioSource CarAudioSource;
     private MeshRenderer CarMr;
 
     private void Start()
     {
         CarRb = GetComponent<Rigidbody>();
-        CarAudioSource = GetComponent<AudioSource>();
+        //CarAudioSource = GetComponent<AudioSource>();
         CarMr = GetComponent<MeshRenderer>();
     }
 
@@ -29,20 +29,20 @@ public class ObjectController : MonoBehaviour
         CarRb.velocity = Vector3.zero;
         CarRb.AddForce(new Vector3(MoveForce, 0, 0));
         //CarAudioSource.clip = CarAudio;
-        CarAudioSource.Play();
+        //CarAudioSource.Play();
     }
 
     private void CarFalse()
     {
         CarMr.gameObject.SetActive(false);
-        CarAudioSource.Stop();
+        //CarAudioSource.Stop();
 
     }
     private void Stop()
     {
         CarRb.velocity = Vector3.zero;
         MoveForce = 0;
-        CarAudioSource.Stop();
+        //CarAudioSource.Stop();
     }
 
     private void OnTriggerEnter(Collider other)

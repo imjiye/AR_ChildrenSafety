@@ -35,7 +35,7 @@ public class Track : MonoBehaviour
             if (t.trackingState == TrackingState.Tracking)
             {
                 o.transform.position = t.transform.position;
-                o.transform.rotation = t.transform.rotation;
+                //o.transform.rotation = t.transform.rotation;
                 o.SetActive(true);
 
                 currentTrackedImageName = name; // 현재 트래킹된 이미지 업데이트
